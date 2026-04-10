@@ -60,4 +60,4 @@ while next_node:
 # current.val = 3 , current.next.val = None
 # while condition break
 
-# final output: [1|a4] -> [2|a5] -> [3|None]  
+# final output: [1|a4] -> [2|a5] -> [3|None]
