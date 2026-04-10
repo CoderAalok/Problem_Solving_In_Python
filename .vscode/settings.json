@@ -1,0 +1,22 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.showWords": false,
+
+    "editor.snippetSuggestions": "none",
+    "python.analysis.autoImportCompletions": false,
+    "python.analysis.completeFunctionParens": false,
+    "editor.quickSuggestionsDelay": 1000000,
+    "editor.suggest.showStatusBar": false,
+    "editor.suggest.preview": false,
+    "editor.suggest.showIcons": false,
+    "python.languageServer": "None",
+   
+}
