@@ -1,39 +1,39 @@
-from typing import Optional
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+# from typing import Optional
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
 
-class Solution:
-    def removeDuplicates(self, head:Optional[ListNode]) -> ListNode:
-        # head: [1,1,2,2,3]
-        current = head
-        while current and current.next:
-            if current.val == current.next.val: 
-                node = current.next  
-                current.next = node.next
-            else:
-                current = current.next
+# class Solution:
+#     def removeDuplicates(self, head:Optional[ListNode]) -> ListNode:
+#         # head: [1,1,2,2,3]
+#         current = head
+#         while current and current.next:
+#             if current.val == current.next.val: 
+#                 node = current.next  
+#                 current.next = node.next
+#             else:
+#                 current = current.next
             
-        return head
+#         return head
 
-n1 = ListNode(1)
-n2 = ListNode(1)
-n3 = ListNode(2)
-n4 = ListNode(2)
-n5 = ListNode(3)
+# n1 = ListNode(1)
+# n2 = ListNode(1)
+# n3 = ListNode(2)
+# n4 = ListNode(2)
+# n5 = ListNode(3)
 
-# connecting each node together
-n1.next = n2
-n2.next = n3
-n3.next = n4
-n4.next = n5
+# # connecting each node together
+# n1.next = n2
+# n2.next = n3
+# n3.next = n4
+# n4.next = n5
 
-s = Solution()
-next_node = s.removeDuplicates(n1)
-while next_node:
-    print(next_node.val)
-    next_node = next_node.next
+# s = Solution()
+# next_node = s.removeDuplicates(n1)
+# while next_node:
+#     print(next_node.val)
+#     next_node = next_node.next
 
 # work flow
 # head:a1 -> [1|a2] -> [1|a3] -> [2|a4] -> [2|a5] -> [3|None] 
