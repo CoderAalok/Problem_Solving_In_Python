@@ -5,18 +5,18 @@
         "strings": "off",
         "other": "off"
     },
-    "editor.suggestOnTriggerCharacters": false,
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
     "editor.wordBasedSuggestions": "off",
-    "editor.suggest.showWords": false,
+    "editor.suggest.showWords": true,
 
     "editor.snippetSuggestions": "none",
     "python.analysis.autoImportCompletions": false,
     "python.analysis.completeFunctionParens": false,
     "editor.quickSuggestionsDelay": 1000000,
-    "editor.suggest.showStatusBar": false,
-    "editor.suggest.preview": false,
-    "editor.suggest.showIcons": false,
+    "editor.suggest.showStatusBar": true,
+    "editor.suggest.preview": true,
+    "editor.suggest.showIcons": true,
     "python.languageServer": "None",
    
 }
