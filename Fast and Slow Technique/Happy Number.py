@@ -1,3 +1,4 @@
+# Approach -I
 # class Solution:
 #     def isHappy(self, n: int) -> bool:
 #         ishappy = False
@@ -26,6 +27,7 @@
 # s = Solution()
 # print(s.isHappy(19))
 
+# Approach -II
 # Optimized solution than previous solution
 # class Solution:
 #     def isHappy(self, n: int) -> bool:
@@ -46,8 +48,7 @@
 # s = Solution()
 # print(s.isHappy(19))
 
-
-# Great optimized solution
+# Approach -III
 # class Solution:
 #     def isHappy(self, n: int) -> bool:
 #         # Process recall
@@ -74,3 +75,36 @@
 # # Space : O(1)
 # s = Solution()
 # print(s.isHappy(190))
+
+# Approach -IV
+def isHappy(num):
+    if num == 1:
+        return True
+    # seen = set()
+    # while num != 1:
+    #     if num in seen:
+    #         return False
+    #     seen.add(num)
+    #     num = sum_of_square(num)
+    # return True
+    
+    slow, fast = num, get_next(num)
+    while  fast != 1 and slow != fast:
+        slow = get_next(slow)
+        fast = get_next(get_next(fast))
+    
+    if fast == 1:
+        return True
+    return False
+ 
+def get_next(n):
+    res = 0
+    x = n
+    while x != 0:
+        digit = x % 10
+        res += digit**2
+        x //= 10
+    return res 
+
+num = 169
+print(isHappy(num))
