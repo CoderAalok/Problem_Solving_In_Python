@@ -44,42 +44,34 @@ class Solution:
         # return listNode(res)
         
         # Approach - II (Using dummy node, this make convenient for Linked List problem)
+        # head
         dummy = ListNode(0)
         current = dummy
         n1, n2 = l1, l2
         carry = 0
-        # res = []
+
         while n1 or n2 or carry:
             val1 = n1.val if n1 else 0
             val2 = n2.val if n2 else 0
             add_num = val1 + val2 + carry
                 
-            # carry = add_num // 10
-            # if carry:
-            #     add_num %= 10 # add_num = 13 % 10 = 3, carry = 1
-            
-            # OR
             carry, add_num = divmod(add_num, 10)
             current.next = ListNode(add_num)
             current = current.next
-            
-            # res.append(add_num)
             
             if n1:
                 n1 = n1.next
             if n2:
                 n2 = n2.next
         
-        return dummy.next
-        
+        return dummy
         
 # Output
-
 # num1 = 293
 # for list1
-node1 = ListNode(3)
+node1 = ListNode(1)
 node2 = ListNode(9)
-node3 = ListNode(2)
+node3 = ListNode(0)
 
 # connecting list1
 node1.next = node2
