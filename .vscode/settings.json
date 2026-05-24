@@ -5,8 +5,8 @@
         "strings": "off",
         "other": "off"
     },
-    "editor.suggestOnTriggerCharacters": true,
-    "editor.acceptSuggestionOnEnter": "on",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.wordBasedSuggestions": "off",
     "editor.suggest.showWords": true,
 
