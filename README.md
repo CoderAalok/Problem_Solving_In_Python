@@ -12,11 +12,11 @@ Optimized Python solutions organized by **algorithmic patterns** with complexity
 **Perfect for:** Interview prep • Competitive programming • Learning DSA patterns
 
 ## Which Algorithm's I covered :  
-|---------|-------------|------|-------|
-| **Two-Pointers** 
-| **Sliding Window** 
-| **Fast & Slow** 
-| **Kadane's** **And** **Prefix's**
+
+- ✅ **Two-Pointers** 
+- ✅ **Sliding Window** 
+- ✅ **Fast & Slow** 
+- ✅ **Kadane's** **And** **Prefix's**
 
 ## ✅ Features
 
