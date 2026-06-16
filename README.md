@@ -8,14 +8,8 @@ A pattern-based collection of algorithmic solutions for technical interviews and
 
 Optimized Python solutions organized by **algorithmic patterns** with complexity analysis, explanations, and test cases.
 
-**Perfect for:** Interview prep • Competitive programming • Learning DSA patterns
+**Perfect for:** Logical thinking • Indepth understanding • Learning DSA patterns
 
-## Which Algorithm's I covered :  
-
-- ✅ **Two-Pointers** 
-- ✅ **Sliding Window** 
-- ✅ **Fast & Slow** 
-- ✅ **Kadane's** **And** **Prefix's**
 
 ## ✅ Features
 
