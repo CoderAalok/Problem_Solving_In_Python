@@ -3,7 +3,6 @@
 A pattern-based collection of algorithmic solutions for technical interviews and competitive programming.
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 
 ## 📌 Overview
 
