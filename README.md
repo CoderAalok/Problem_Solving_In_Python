@@ -1,4 +1,4 @@
-# 🐍 Problem Solving in Python
+# Problem Solving in Python
 
 A pattern-based collection of algorithmic solutions for technical interviews and competitive programming.
 
