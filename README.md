@@ -33,9 +33,5 @@ Optimized Python solutions organized by **algorithmic patterns** with complexity
 3. Include complexity analysis and test cases
 4. Submit a Pull Request
 
-## 📄 License
-
-MIT License - Free to use for personal and commercial projects.
-
 **⭐ Enjoy with Problem Solving**  
 📧 Author: [CoderAalok](https://github.com/CoderAalok)
