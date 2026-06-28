@@ -15,6 +15,7 @@ def maxArea(height: List[int]) -> int:
     
     return max_area
 
+# height = [1,8,6,2,5,4,8,3,7]
 height = [2,7,4,8,10]
 print(maxArea(height))
 
