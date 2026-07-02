@@ -49,3 +49,11 @@ min_boats = 4
 minimum boats = 4 [(90), (10, 70), (20, 50), (30)]
 
 """
+
+"""
+array.sort() -> O(n log n )
+loop -> O(n)
+Time Complexity: O(n log n ) + O(n) = O(n log n )
+Space Complexity: O(n)
+
+"""
