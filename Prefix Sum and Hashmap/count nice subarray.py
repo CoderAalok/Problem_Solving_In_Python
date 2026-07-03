@@ -65,3 +65,10 @@ seen = {0:2, 1:1, 2:1, 3:1}
 Number of nice sub-array  which contains k odd numbers on it = 2 #[2,1,3,5] and [1,3,5]
 
 """
+
+"""
+Time Complexity: O(n) [Becasue N times operation perform]
+Space Complexity: O(n) [Because we use here hashmap]
+
+:: Linear time and linear space
+"""
