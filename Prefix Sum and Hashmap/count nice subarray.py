@@ -27,6 +27,7 @@ k = 2
 print(countNiceSubarray(nums, k))
 
 
+"""" Subarray Sum of frequency of odd (x) exactly equals to k (i.e. x == k) """
 # DRY RUN
 """
 first a fall, replacing even with 0 and odd with 1
