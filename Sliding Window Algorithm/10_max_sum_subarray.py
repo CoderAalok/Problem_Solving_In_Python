@@ -37,26 +37,29 @@ def max_Sum_subarray(nums, k):
     if not nums or len(nums) < k  or k <= 0:
         return -1
     
-    low, high = 0, k-1
-    k_sum, res = 0, float('-inf')
     n = len(nums)
+    window_sum = max_sum = 0 
+    left, right = 0, k-1
     
-    for s in range(k):
-        k_sum += nums[s]
+    for i in range(k):
+        window_sum += nums[i]
     
-    while high < n:
-        res = max(res, k_sum)
-        # Now, find next k-size of subarray sum
-        low += 1
-        high += 1
-        # check is high exceeding n 
-        if high == n:
-            break
-        k_sum -= nums[low-1]
-        k_sum += nums[high]
+    for right in range(k, n):
+        window_sum += nums[right] - nums[right - k]
+        max_sum = max(max_sum, window_sum)
         
-    return res
-
+    # while right < n:
+    #     max_sum = max(max_sum, window_sum)
+    #     left += 1
+    #     right += 1
+    #     if right == n:
+    #         break
+        
+    #     window_sum += nums[right] - nums[left-1]
+    
+    return max_sum
+    
+    
 nums = [3,1,5,3,6,7]
 k = 3
-print(max_Sum_subarray(nums,k))  # -> 16
+print(max_Sum_subarray(nums, k))  # -> 16
