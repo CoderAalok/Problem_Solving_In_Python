@@ -1,6 +1,23 @@
 # # Problem-IV
 # # Palindrome: The reversed of element same as original state.
 
+def is_palindrome(s: str) -> bool:
+    n = len(s)
+    left, right = 0, n-1
+    
+    while left <= right:
+        if s[left] != s[right]:
+            return False
+            
+        left += 1
+        right -= 1
+        
+    return True
+
+s = "alokola"
+print(is_palindrome(s))
+            
+
 # # For string:
 # # Method-I
 # def Is_Palindrome(strr):
@@ -33,21 +50,21 @@
 
 
 # For number:
-def Is_palindrome(num):
-    if num <= 1:
-        return False
+# def Is_palindrome(num):
+#     if num <= 1:
+#         return False
     
-    rev = 0
-    new_num = num
-    while num != 0:
-        rev = rev*10 + (num % 10)
-        num = num//10
+#     rev = 0
+#     new_num = num
+#     while num != 0:
+#         rev = rev*10 + (num % 10)
+#         num = num//10
 
-    if new_num == rev:
-        return True
-    else:
-        return False
+#     if new_num == rev:
+#         return True
+#     else:
+#         return False
     
-num = 2120
-print(Is_palindrome(num))
+# num = 2120
+# print(Is_palindrome(num))
         
