@@ -1,4 +1,6 @@
 # Anagram: Anagram is the same length of a word and its characters called anagram.
+# OR same no. of character but different arrangement.
+
 # Note: length of a word at least two. 
 
 # Method-I
