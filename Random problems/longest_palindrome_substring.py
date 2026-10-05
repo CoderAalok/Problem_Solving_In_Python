@@ -14,6 +14,6 @@ print(longestPalindrome(s))
 
 
 """
-Time Complexity: O(n^3)  -> wrost
+Time Complexity: O(n^3)  -> worst
 Space Complexity : O(1)
 """
