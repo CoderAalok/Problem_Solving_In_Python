@@ -17,13 +17,13 @@ def partition_labels(s: str) -> list[int]:
 
 
 # test
-# s = "aabbacc"
+s = "aabbacc"
 # s = "ababcbacadefegdehijhklij"
-# print(partition_labels(s))
+print(partition_labels(s))
 
 
 """
-Problem simply is that divide the string into as many parts as possible so that each character in at most one part (distinct part).
+Partition: Divide the string into as many parts as possible so that each character in at most one part (distinct part).
 Each character must occur in at most one partition.
 """
 
