@@ -16,5 +16,5 @@ def compressed_id(s: str) -> str:
     result += str(count)
     return result 
 
-
+# Test: 
 print(compressed_id('aaabbc1111xiiaaggao111a'))
